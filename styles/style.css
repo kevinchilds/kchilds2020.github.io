@@ -323,7 +323,7 @@ button{
     text-align: center;
   }
   .card{
-      width: 100%;
+      width: 60%;
       padding: 0px;
   }
   .section-short{
@@ -333,6 +333,14 @@ button{
   #section-img{
       margin: 0px;
       box-shadow: none;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .card{
+      width: 100%;
+      padding: 0px;
   }
 
 }
