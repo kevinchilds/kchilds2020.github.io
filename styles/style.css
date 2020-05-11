@@ -311,4 +311,8 @@ button{
         text-align: center; 
     }
 
+    #section-img{
+        width: 300px;
+    }
+
 }
