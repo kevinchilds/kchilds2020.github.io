@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 html{
     margin: 0px;
@@ -105,8 +105,8 @@ button{
     padding: 20px;
 }
 
-.project-info h3{
-    font-size: 24px;
+.project-info h1{
+    font-size: larger;
 }
 
 .project-info p{
