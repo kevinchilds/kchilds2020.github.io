@@ -1,8 +1,39 @@
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="./styles.css">
+
     </head>
 
     <body>
-        <h1>Hello Java!</h1>
+       <div id="panel">
+            <ul>
+                <li>What is Java</li>
+                <li>JDK vs JRE vs JVM</li>
+                <li>Running Java from Command Line</li>
+                <li>Datatypes</li>
+                <li>Flow Control</li>
+                <li>Methods</li>
+                <li>Classes and Objects</li>
+            </ul>
+       </div>
+
+       <div id="content">
+            
+            <div class="section" id="what-is-java">
+                <h3>What is Java</h3>
+                <p>Java is an object oriented language based in C and maintained by Oracle</p>
+            </div>
+            <div class="section" id="jdk-jre-jvm">
+                <h3>JDK vs JRE vs JVM</h3>
+                <p>Java is a compiled language as opposed to an interpreted language. Essentially what this means is that the code is converted to a more machine readable language called bytecode before the jvm can run it.</p>
+                <h4>How does our Java Source Code get converted to Bytecode?</h4>
+                <p>It is converted by a program called a compiler. A compilers purpose is to convert high level language into a lower level language. </p>
+                <h4>What is a JVM?</h4>
+                <p>JVM stands for Java Virtual Machine. It runs this bytecode line by line</p>
+            </div>
+       </div> 
     </body>
 </html>

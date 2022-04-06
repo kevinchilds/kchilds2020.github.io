@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#panel{
+    background-color: lightgray;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+}
+
+#content{
+    margin-left: 210px;
+}
