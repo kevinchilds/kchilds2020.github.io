@@ -15,3 +15,7 @@ body{
 #content{
     margin-left: 210px;
 }
+
+.section > p {
+    margin-left: 20px;
+}
